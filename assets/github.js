@@ -46,8 +46,6 @@
       $link.append($("<h2>").text(repo.name));
       $link.append($("<h3>").text(repo.language));
       $link.append($("<p>").text(repoDescription(repo)));
-      console.log(repo);
-      console.log(repo.fork);
       $item.appendTo("#repos");
     }
   }
