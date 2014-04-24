@@ -39,7 +39,7 @@ a:hover {
 
 #main {
   height: 400px;
-  text-align: center;
+  text-align: left;
 }
 
 #main, div.header, li.repo {
@@ -67,9 +67,9 @@ a:hover {
 
 #logo {
   width: 190px;
-  height: 64px;
+  height: 190px;
   margin: 15px 0 0 15px;
-  background: url("logo.png");
+  background: url("pic.jpg");
   text-indent: -99999px;
 }
 
@@ -249,4 +249,9 @@ li.repo h3 {
   width: 100%;
   height: 100%;
   overflow: hidden;
+}
+
+.current-position {
+  text-align: center;
+  margin: -20px 0 20px 0;
 }
