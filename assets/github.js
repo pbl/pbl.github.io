@@ -54,7 +54,7 @@
     repos = repos || [];
     page = page || 1;
 
-    var uri = "https://api.github.com/users/buren/repos?callback=?"
+    var uri = "https://api.github.com/users/pbl/repos?callback=?"
             + "&per_page=100"
             + "&page="+page;
 
